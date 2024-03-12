@@ -64,22 +64,22 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`𝙷𝚎𝚕𝚕𝚘` [👿](https://telegra.ph/file/1aa73f560fdd4dd6ad370.jpg) `𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜` *RUCHI 𝚁𝚘𝚋𝚘𝚝*
+`𝙷𝚎𝚕𝚕𝚘` [👿](https://t.me/romeo_bot_photo/115) `𝙼𝚢 𝚗𝚊𝚖𝚎 𝚒𝚜` *DARK HELPER BOT*
 `𝙸'𝚖 𝚑𝚎𝚛𝚎 𝚝𝚘 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚖𝚊𝚗𝚊𝚐𝚎 𝚢𝚘𝚞𝚛 𝚐𝚛𝚘𝚞𝚙𝚜! 𝙷𝚒𝚝` *📚𝙲𝚘𝚖𝚖𝚊𝚗𝚍𝚜*   
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="powered by😇", url="t.me/Nonsense_proRobot?startgroup=true"),
+            text="powered by😇", url="t.me/dark_x_hacking1?startgroup=true"),
     ],
      [
         InlineKeyboardButton(text="𝐀𝐛𝐨𝐮𝐭💝", callback_data="evil_"),
         InlineKeyboardButton(
-            text="𝐌𝐲 😡OWNER", url="t.me/chaudhary_Anjana").
+            text="𝐌𝐲 🥰OWNER", url="t.me/ROMEOXDARK").
 
      ],
      [  
-        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/https://t.me/NONSENSE_HAWELI"),
+        InlineKeyboardButton(text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭🛠", url="https://t.me/https://t.me/DARK_X_HACKING1"),
         InlineKeyboardButton(text="𝐑𝐞𝐩𝐨🇮🇳", url="https://github.com/jayanti01/EvilBot"),
     ], 
 
@@ -88,9 +88,9 @@ buttons = [
     ],
 ]
 HELP_STRINGS = """
-`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *Ruchi 𝚁𝚘𝚋𝚘𝚝* [👿](https://telegra.ph/file/1aa73f560fdd4dd6ad370.jpg)
+`𝙷𝚎𝚢!.. 𝙸'𝚖` 👿 *DARK HELPER BOT* [👿](https://t.me/romeo_bot_photo/115)
 `𝙲𝚕𝚒𝚌𝚔 𝚘𝚗 𝚝𝚑𝚎 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚋𝚎𝚕𝚘𝚠 𝚝𝚘 𝚐𝚎𝚝 𝚍𝚘𝚌𝚞𝚖𝚎𝚗𝚝𝚊𝚝𝚒𝚘𝚗 𝚊𝚋𝚘𝚞𝚝 𝚜𝚙𝚎𝚌𝚒𝚏𝚒𝚌 𝚖𝚘𝚍𝚞𝚕𝚎𝚜..`"""
-evil_IMG = "https://telegra.ph/file/1aa73f560fdd4dd6ad370.jpg"
+evil_IMG = "https://t.me/romeo_bot_photo/115"
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](#) or by contacting @chaudhary_Anjana \
  Supporting isnt always financial! \
@@ -558,7 +558,7 @@ def donate(update: Update, context: CallbackContext):
         update.effective_message.reply_text(
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 6968311385 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
